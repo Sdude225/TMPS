@@ -47,3 +47,4 @@ All calls to creation methods are present in **Main** class
 ## Program output
 ![output](https://github.com/Sdude225/TMPS/tree/main/images/output.png)
 ## Program Hierarchy
+![structure](https://github.com/Sdude225/TMPS/blob/main/images/structure.png)
