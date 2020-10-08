@@ -45,5 +45,5 @@ There are multiple factories for each material type. These factories implement I
 All calls to creation methods are present in **Main** class
 
 ## Program output
-![output](output.png)
+![output](https://github.com/Sdude225/TMPS/tree/main/images/output.png)
 ## Program Hierarchy
