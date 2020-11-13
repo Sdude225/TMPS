@@ -7,7 +7,7 @@ import com.TMPS.Cookware.Builder.PotBuilder;
 import com.TMPS.Cookware.ICookware;
 
 public class GlassCookwareFactory implements IBaseFactory {
-    private static GlassCookwareFactory glassCookwareFactory;
+    private static volatile GlassCookwareFactory glassCookwareFactory;
     private BuilderDirector director = new BuilderDirector();
 
     public static GlassCookwareFactory getGlassCookwareFactory() {

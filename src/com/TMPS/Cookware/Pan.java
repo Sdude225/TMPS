@@ -4,6 +4,7 @@ public class Pan implements ICookware {
     private String name;
     private String type;
     private float price;
+    private float volume = 2f;
 
     public void setName(String name) {
         this.name = name;
@@ -18,7 +19,12 @@ public class Pan implements ICookware {
     }
 
     @Override
+    public void setVolume(float volume) {
+        this.volume = volume;
+    }
+
+    @Override
     public String toString() {
-        return "Pan : " + "name = " + name + ", type = " + type + ", price = " + price;
+        return "Pan : " + "name = " + name + ", type = " + type + ", price = " + price + ", volume = " + volume;
     }
 }
