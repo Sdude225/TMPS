@@ -13,7 +13,7 @@ public class Kitchen {
         return kitchen;
     }
 
-    void arrangeKitchen(ICookware... cookwares) {
+    void assembleKitchen(ICookware... cookwares) {
         System.out.println("Kitchen contains following cookware");
         for (ICookware cookware : cookwares) {
             System.out.println(cookware.toString());

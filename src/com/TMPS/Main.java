@@ -21,7 +21,7 @@ public class Main {
         StoveAdapter gasStoveAdapter = new StoveAdapter(gasStove);
 
         Kitchen kitchen = Kitchen.getKitchen();
-        kitchen.arrangeKitchen(antiqueStoveAdapter, electricalStoveAdapter, gasStoveAdapter,
+        kitchen.assembleKitchen(antiqueStoveAdapter, electricalStoveAdapter, gasStoveAdapter,
                 glassFactory.createCookware("pan"), glassFactory.createCookware("pot"), glassFactory.createCookware("casserole"));
 
         System.out.println();

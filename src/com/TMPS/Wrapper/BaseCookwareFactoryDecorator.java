@@ -3,7 +3,7 @@ package com.TMPS.Wrapper;
 import com.TMPS.Cookware.ICookware;
 import com.TMPS.Factory.IBaseFactory;
 
-public class BaseCookwareFactoryDecorator {
+public class BaseCookwareFactoryDecorator implements IBaseFactory{
     protected IBaseFactory wrapper;
 
     public BaseCookwareFactoryDecorator(IBaseFactory baseFactory) {
