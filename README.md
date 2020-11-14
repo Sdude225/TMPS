@@ -61,4 +61,4 @@ public ICookware getCustomCookware(String type, float volume, String materialTyp
 ## Program output
 ![output](https://github.com/Sdude225/TMPS/blob/main/images/outputlab2.png)
 ## Program Hierarchy
-![structure](https://github.com/Sdude225/TMPS/blob/main/images/[Package TMPS.png])
+![structure](https://github.com/Sdude225/TMPS/blob/main/images/Package%20TMPS.png)
