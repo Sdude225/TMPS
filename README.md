@@ -59,6 +59,6 @@ public ICookware getCustomCookware(String type, float volume, String materialTyp
 **Decorator** allows us to attach new behaviors by placing them in so called wrappers that contains these behaviors. For the scope of this lab work, **BaseCookwareFactoryDecorator** class was implemented. With its help, the Cookware class was expanded with a new attribute - volume, and a new method inside **CustomVolume** which can be used to make custom cookware objects. By default all of object have a volume of 2 liters.
 
 ## Program output
-![output](https://github.com/Sdude225/TMPS/blob/main/images/output.png)
+![output](https://github.com/Sdude225/TMPS/blob/main/images/outputlab2.png)
 ## Program Hierarchy
-![structure](https://github.com/Sdude225/TMPS/blob/main/images/structure.png)
+![structure](https://github.com/Sdude225/TMPS/blob/main/images/Package TMPS.png)
