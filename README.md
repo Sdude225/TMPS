@@ -1,4 +1,4 @@
-# Topic: tructural Design Patterns
+# Topic: Structural Design Patterns
 ****
 ##### Student: Pavlov Alexandru
 ##### Group: FAF-181
