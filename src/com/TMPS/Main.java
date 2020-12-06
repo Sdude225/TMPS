@@ -1,5 +1,6 @@
 package com.TMPS;
 
+import com.TMPS.Cookware.ICookware;
 import com.TMPS.Factory.GlassCookwareFactory;
 import com.TMPS.Factory.IBaseFactory;
 import com.TMPS.Factory.IronCookwareFactory;
@@ -7,6 +8,8 @@ import com.TMPS.Factory.SteelCookwareFactory;
 import com.TMPS.Stove.AntiqueStove;
 import com.TMPS.Stove.ElectricalStove;
 import com.TMPS.Stove.GasStove;
+
+import java.util.Iterator;
 
 public class Main {
 
@@ -44,5 +47,25 @@ public class Main {
         System.out.println(ironFactory.createCookware("pan").toString());
         System.out.println(ironFactory.createCookware("pot").toString());
         System.out.println(ironFactory.createCookware("casserole").toString());
+
+        kitchen.addCookware(antiqueStoveAdapter);
+        kitchen.addCookware(electricalStoveAdapter);
+        kitchen.addCookware(gasStoveAdapter);
+
+        kitchen.addCookware(glassFactory.createCookware("pan"));
+        kitchen.addCookware(glassFactory.createCookware("pot"));
+        kitchen.addCookware(glassFactory.createCookware("casserole"));
+        kitchen.addCookware(customCookware.getCustomCookware("pot", 99f, "obsidian"));
+
+        System.out.println();
+        printKitchen(kitchen.iterator());
+    }
+
+    private static void printKitchen(Iterator<ICookware> iterator) {
+        System.out.println("kitchen contains");
+        while (iterator.hasNext()) {
+            ICookware cookware = iterator.next();
+            System.out.println(cookware.toString());
+        }
     }
 }
