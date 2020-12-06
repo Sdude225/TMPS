@@ -52,6 +52,6 @@ Null objects can be found in the following classes: **StoveNull** and **Cookware
 
 
 ## Program output
-![output](https://github.com/Sdude225/TMPS/blob/main/images/outputlab2.png)
+![output](https://github.com/Sdude225/TMPS/blob/main/images/outputlab3.png)
 ## Program Hierarchy
-![structure](https://github.com/Sdude225/TMPS/blob/main/images/Package%20TMPS.png)
+![structure](https://github.com/Sdude225/TMPS/blob/main/images/lab3diagram.png)
